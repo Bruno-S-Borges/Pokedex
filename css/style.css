@@ -1,0 +1,168 @@
+body{
+    text-align: center;
+    background-image: url(../images/illustration-anime-pixel-art-grass-sky-jumping-1914-wallhere.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+main{
+    display: inline-block;
+    padding: 0 0 1.5rem 1.5rem;
+    position: absolute;
+    z-index: 2;
+    transition: all 1s ease;
+    transform:'';
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 42.5rem;
+}
+
+.main2{
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+    padding: 0 0 1.5rem 1.5rem;
+}
+
+.verso{
+    width: 100%;
+    max-width: 42.5rem;
+    position: relative;
+    transform: rotateY(150deg); 
+    z-index: -1;
+    transition: all 1s ease;
+}
+
+#quadrado{
+    position: absolute;
+    width: 75%;
+    height: 73%;
+    top: 20.5%;
+    left: 20%;
+    background-color: #CFDBDD;
+    border-radius: 4%;
+    box-shadow: -0.6rem 0.4rem 0 #888, -0.9rem 0.7rem 0 #333;
+    z-index: 0;
+}
+
+.pokemon-image{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemon-data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(0.8rem, 5vw, 2.5rem);
+}
+
+.pokemon-name{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input-search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 0.2rem solid #333;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(0.8rem, 5vw, 2.5rem);
+    box-shadow: -0.3rem 0.4rem 0 #888, -0.5rem 0.7rem 0 #333;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 2rem;
+}
+
+.button{
+    width: 50%;
+    padding: 4%;
+    border: 0.2rem solid #000;
+    border-radius: 0.5rem;
+    font-size: clamp(0.8rem, 5vw, 2.5rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -0.2rem 0.3rem 0 #222, -0.4rem 0.6rem 0 #000;
+}
+
+.button:active{
+    box-shadow: inset -0.4rem 0.4rem 0 #222;
+    font-size: 2rem;
+}
+.card-pokemon{
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+}
+
+.img-container{
+    width: 15rem;
+    margin: 1rem auto; 
+}
+
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: bold
+}
+
+.poke-types div{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+    border: 0.1rem dashed black;
+    font-size: 1.8rem;
+    font-weight: bold
+}
+
+.poke-img{
+    width: 12rem;
+    border-radius: 50%;
+}
+
+.button2{
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    padding: 2rem;
+    transform: '';
+    transition: all 1s ease;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicons/favicon-16x16.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <script defer src="./js/script.js"></script>
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <img class="logo" src="./images/logo.png" alt="">
+    <main>
+      <img src="#" alt="pokemon" class="pokemon-image" />
+
+      <h1 class="pokemon-data">
+        <span class="pokemon-number"></span> -
+        <span class="pokemon-name"></span>
+      </h1>
+
+      <form class="form">
+        <input
+          type="search"
+          class="input-search"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <button class="button btn-prev">Prev &lt;</button>
+        <button class="button btn-next">Next &gt;</button>
+      </div>
+
+      <img src="./favicons/seta-direita.png" class="button2" data-button></img>
+      <img src="./images/pokedex.png" alt="pokedex" class="pokedex" />
+    </main>
+
+    <div class="main2">
+      <div id="quadrado"></div>
+      <img src="./images/pokedex.png" alt="" class="verso" />
+      <div class="card-pokemon">
+        <div data-poke-img-container class="img-container">
+          <img src="#" alt="pokemon" data-poke-img class="poke-img" />
+        </div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+      </div>
+    </div>
+  </body>
+</html>
